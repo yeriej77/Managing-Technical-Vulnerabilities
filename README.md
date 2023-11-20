@@ -3,13 +3,14 @@
 
 
 <h2>Description</h2>
-In this lab, I will explore both the passive nature of vulnerabilities and the dynamic nature of a threat agent performing exploitation. I will assume the role of a system administrator auditing an IT infrastructure, a process that mirrors that of a threat agent attempting to exploit and gain unauthorized access to the system
-<br />
+In this lab, I employ the Nmap Scripting Engine (NSE) to initiate a vulnerability scan across an entire network, aiming to identify particular vulnerabilities. Utilizing the Greenbone Vulnerability Management framework (formerly known as OpenVAS), I conduct a comprehensive scan on a specific host to detect all potential vulnerabilities outlined in the scanner's dictionary. Subsequently, I record the associated risk entries for each identified vulnerability in SimpleRisk.<br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Metaspoit Framework</b> 
+- <b>Nmap Scripting Engine (NSE)</b>
+- <b>Greenbone Vulnerability Management framework (OpenVas)</b>
+- <b>SimpleRisk</b> 
 
 <h2>Environments Used </h2>
 
