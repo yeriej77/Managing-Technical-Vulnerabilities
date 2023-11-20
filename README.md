@@ -63,7 +63,7 @@ Upon identifying the FTP vulnerability, the next step involves conducting a scan
 <br />
  
 
-<h2Documenting Vulnerabilities with SimpleRisk:</h2>
+<h2>Documenting Vulnerabilities with SimpleRisk:</h2>
 
 <p align="center">
 After doing the scan we will document the finding using SimpleRisk and patch them according to the severity score. <br/>
