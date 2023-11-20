@@ -19,18 +19,43 @@ In this lab, I employ the Nmap Scripting Engine (NSE) to initiate a vulnerabilit
 -  <b>Kali</b> (Kali Linux)
 -  <b>SimpleRisk</b> (Linux)
 
-<h2>Identify the Version and Build of a Windows System:</h2>
+<h2>Perform a Vulnerability Scan with Nmap:</h2>
 
 <p align="center">
-From the TargetWindows01 taskbar, Start button > type winver > press Enter to open the About Windows dialog box: <br/>
+type Nmap your IP address (172.30.0.0/24) -n --script ftp-anon -p 21 > press Enter to start the Nmap vulnerability scan. We found one machine (172.30.0.3) that has the anonymous vulnerability and has port 21 open. <br/>
 <br />
-<img src="https://i.imgur.com/nGOeJT9.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UTVPur2.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ 
+<p align="center">
+We are going to exploit it to see what we find. Type: ftp 172.30.0.3 (or IP address of the vulnerable machine). after it will ask you for a name and you Type: anmonimous 
+<br/>
+<br />
+<img src="https://i.imgur.com/Flq1jhz.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
+After it will ask you for a name and you will Type: anonymous and then it will ask you for a password where you can type anything
+<br/>
+<br />
+<img src="https://i.imgur.com/Flq1jhz.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
+The anonymous login is not a problem on its own, but it can quickly become very problematic if sensitive documents are being shared over that FTP service. but in this case, we found a file called newhire.txt. we will grab the file and open it by typing: cat newhire.txt 
+<br/>
+<br />
+<img src="https://i.imgur.com/7ov46kV.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 
-<br />
-<br />
+
+
+
 
 <!--
  ```dif
