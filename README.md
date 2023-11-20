@@ -68,7 +68,7 @@ Upon identifying the FTP vulnerability, the next step involves conducting a scan
 <p align="center">
 After doing the scan we will document the finding using SimpleRisk and patch them according to the severity score. <br/>
 <br />
-<img src="https://i.imgur.com/47dBctv.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sdGHINw.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  
