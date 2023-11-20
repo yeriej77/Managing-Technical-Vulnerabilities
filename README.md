@@ -14,9 +14,10 @@ In this lab, I employ the Nmap Scripting Engine (NSE) to initiate a vulnerabilit
 
 <h2>Environments Used </h2>
 
-- <b>Workstation </b> (Windows 10)
-- <b>TargetWindows01 </b> (Windows Server 2019)
-- <b>Kali </b> (Linux)
+-  <b>vWorkstation</b> (Windows Server 2019)
+-  <b>TargetWindows01</b> (Windows Server 2016) [Domain Controller]
+-  <b>Kali</b> (Kali Linux)
+-  <b>SimpleRisk</b> (Linux)
 
 <h2>Identify the Version and Build of a Windows System:</h2>
 
