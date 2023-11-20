@@ -19,7 +19,7 @@ In this lab, I employ the Nmap Scripting Engine (NSE) to initiate a vulnerabilit
 -  <b>Kali</b> (Kali Linux)
 -  <b>SimpleRisk</b> (Linux)
 
-<h2>Perform a Vulnerability Scan with Nmap:</h2>
+<h2>Performing a Vulnerability Scan with Nmap:</h2>
 
 <p align="center">
 type Nmap your IP address (172.30.0.0/24) -n --script ftp-anon -p 21 > press Enter to start the Nmap vulnerability scan. We found one machine (172.30.0.3) that has the anonymous vulnerability and has port 21 open. <br/>
@@ -29,7 +29,7 @@ type Nmap your IP address (172.30.0.0/24) -n --script ftp-anon -p 21 > press Ent
 <br />
  
 <p align="center">
-We are going to exploit it to see what we find. Type: ftp 172.30.0.3 (or IP address of the vulnerable machine). after it will ask you for a name and you Type: anmonimous 
+We are going to exploit it to see what we find. Type: ftp 172.30.0.3 (or IP address of the vulnerable machine). after it will ask you for a name and you Type: anonymous 
 <br/>
 <br />
 <img src="https://i.imgur.com/Flq1jhz.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
@@ -45,13 +45,22 @@ After it will ask you for a name and you will Type: anonymous and then it will a
 <br />
 
 <p align="center">
-The anonymous login is not a problem on its own, but it can quickly become very problematic if sensitive documents are being shared over that FTP service. but in this case, we found a file called newhire.txt. we will grab the file and open it by typing: cat newhire.txt 
+The anonymous login is not a problem on its own, but it can quickly become very problematic if sensitive documents are being shared over that FTP service. but in this case, we found a file called newhire.txt. we will grab the file and open it by typing: cat newhire.txt
 <br/>
 <br />
 <img src="https://i.imgur.com/7ov46kV.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
+<h2>Performing a Vulnerability Scan with the GVM Framework:</h2>
+
+<p align="center">
+Upon identifying the FTP vulnerability, the next step involves conducting a scan specifically targeting the vulnerable machine. <br/>
+<br />
+<img src="https://i.imgur.com/lt0k27d.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ 
 
 
 
