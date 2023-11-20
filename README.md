@@ -10,7 +10,8 @@ In this lab, I employ the Nmap Scripting Engine (NSE) to initiate a vulnerabilit
 
 - <b>Nmap Scripting Engine (NSE)</b>
 - <b>Greenbone Vulnerability Management framework (OpenVas)</b>
-- <b>SimpleRisk</b> 
+- <b>SimpleRisk</b>
+- <b>CVSS-based risk assessment</b>.
 
 <h2>Environments Used </h2>
 
@@ -62,6 +63,15 @@ Upon identifying the FTP vulnerability, the next step involves conducting a scan
 <br />
  
 
+<h2Documenting Vulnerabilities with SimpleRisk:</h2>
+
+<p align="center">
+After doing the scan we will document the finding using SimpleRisk and patch them according to the severity score. <br/>
+<br />
+<img src="https://i.imgur.com/47dBctv.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ 
 
 
 
