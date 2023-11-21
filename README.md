@@ -11,7 +11,8 @@ In this lab, I employ the Nmap Scripting Engine (NSE) to initiate a vulnerabilit
 - <b>Nmap Scripting Engine (NSE)</b>
 - <b>Greenbone Vulnerability Management framework (OpenVas)</b>
 - <b>SimpleRisk</b>
-- <b>CVSS-based risk assessment</b>.
+- <b>CVSS-based risk assessment</b>
+- <b>NIST 800-40 </B>
 
 <h2>Environments Used </h2>
 
